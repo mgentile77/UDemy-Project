@@ -20,7 +20,7 @@ do {
     Console.WriteLine("[D]ivide numbers");
     Console.WriteLine("[E]xit");
     var userMathRequested = Console.ReadLine();
-    if (userMathRequested == "E" || userMathRequested == "e")
+    if (userMathRequested.ToUpper() == "E")
     {
         break;
     }
@@ -33,26 +33,26 @@ do {
 
 string OutputToUser(int num1, int num2, string typeMath)
 {
-    if (typeMath == "A" || typeMath == "a")
+    if (typeMath.ToUpper() == "A")
     {
         var sum = num1 + num2;
         return num1 + "+" + num2 + "=" + sum;
     }
-    else if (typeMath == "S" || typeMath == "s")
+    else if (typeMath.ToUpper() == "S")
     {
         var sum = num1 - num2;
         return num1 + "-" + num2 + "=" + sum;
     }
-    else if (typeMath == "M" || typeMath == "m")
+    else if (typeMath.ToUpper() == "M")
     {
         var sum = num1 * num2;
         return num1 + "X" + num2 + "=" + sum;
     }
-    else if (typeMath == "D" || typeMath == "d")
+    else if (typeMath.ToUpper() == "D")
     {
         var sum = num1 / num2;
         var remainder = num1 % num2;
-        return num1 + "/" + num2 + "=" + sum + "R" + remainder;
+        return num1 + "/" + num2 + "=" + sum + " R " + remainder;
     }
     else
     {
