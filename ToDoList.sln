@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList", "ToDoList\ToDoLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{57C092B1-BCC4-4BCE-A44B-3601197AB12D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticePage", "PracticePage\PracticePage.csproj", "{C84B5FCE-4BF4-426A-898A-5271D9A054F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{57C092B1-BCC4-4BCE-A44B-3601197AB12D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57C092B1-BCC4-4BCE-A44B-3601197AB12D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57C092B1-BCC4-4BCE-A44B-3601197AB12D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C84B5FCE-4BF4-426A-898A-5271D9A054F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C84B5FCE-4BF4-426A-898A-5271D9A054F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C84B5FCE-4BF4-426A-898A-5271D9A054F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C84B5FCE-4BF4-426A-898A-5271D9A054F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

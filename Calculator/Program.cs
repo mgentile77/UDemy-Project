@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Hello!");
+﻿using System;
+
+Console.WriteLine("Hello!");
 Console.WriteLine();
 do {
     Console.WriteLine("What would you like to do");
