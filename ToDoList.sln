@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList", "ToDoList\ToDoList.csproj", "{A54CA795-A182-4E0E-AA08-352383890060}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoList", "ToDoList\ToDoList.csproj", "{A54CA795-A182-4E0E-AA08-352383890060}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{57C092B1-BCC4-4BCE-A44B-3601197AB12D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Calculator.csproj", "{57C092B1-BCC4-4BCE-A44B-3601197AB12D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticePage", "PracticePage\PracticePage.csproj", "{C84B5FCE-4BF4-426A-898A-5271D9A054F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PracticePage", "PracticePage\PracticePage.csproj", "{C84B5FCE-4BF4-426A-898A-5271D9A054F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basics_of_OOP", "Basics_of_OOP\Basics_of_OOP.csproj", "{6E8F3F5E-5DD9-48E7-B785-51EC6DDC0797}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{C84B5FCE-4BF4-426A-898A-5271D9A054F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C84B5FCE-4BF4-426A-898A-5271D9A054F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C84B5FCE-4BF4-426A-898A-5271D9A054F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E8F3F5E-5DD9-48E7-B785-51EC6DDC0797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E8F3F5E-5DD9-48E7-B785-51EC6DDC0797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E8F3F5E-5DD9-48E7-B785-51EC6DDC0797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E8F3F5E-5DD9-48E7-B785-51EC6DDC0797}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
